@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header" id="home">
+    <!--NAVBARRE-->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#home"><li>Accueil</li></a>
+                    <a href="#skills"><li>Compétences</li></a>
+                    <a href="#projects"><li>Projets</li></a>
+                    <a href="#reseaux"><li>Réseaux</li></a>
+                </ul>
+            </div>
+        </nav>
+    <!--HEADER CONTAINER-->
+        <div class="header-container">
+            <h1 class="header-title">Salut, moi c'est Tom ! 👋🏻</h1>
+            <h2 id="autotext">Développeur Web</h2>
+            <a class="header-btn" href="./cv.pdf" target="_blank">mon cv</a>
+        </div>
+    </header>
+    <main>
+        <!--SECTION SKILLS-->
+        <div class="container-skills" id="skills">
+            <h2 class="titre-skills">mes compétences</h2>
+                <div class="container">
+                    <div class="card-skills">
+                        <div class="face face1">
+                            <div class="content-skills">
+                                <div class="icon">
+                                    <img src="./image/back-end.png" alt="backend" class="fa fa-back-square" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content-skills">
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>SQL</li>
+                                    <li>Symfony</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-skills">
+                        <div class="face face1">
+                            <div class="content-skills">
+                                <div class="icon">
+                                    <img src="./image/ux-interface.png" alt="fontend" class="fa fa-twitter-square">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content-skills">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Boostrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-skills">
+                        <div class="face face1">
+                            <div class="content-skills">
+                                <div class="icon">
+                                    <img src="./image/settings.png" alt="tools" class="fa fa-tools-square">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content-skills">
+                                <ul>
+                                    <li>WordPress</li>
+                                    <li>Github</li>
+                                    <li>Figma</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!--SECTION ABOUT ME-->
+        <div class="about-me" id="about">
+            <h2 class="titre-about">A propos de moi !</h2>
+            <p class="about-description">Moi, c'est Tom, j'ai 23 ans et après diverses expériences, <br>
+                j'ai fait le choix de devenir développeur web. <br> Passionné par le web, <br>
+                j'adore relever des challenges. En plus de la programmation, <br>
+                je fais du sport, je travaille sur des projets personnels, j'écoute de la musique ou je regarde des films. !
+            </p>
+            <img src="./image/DSC00906.JPG" alt="profil-picture" class="about-picture">
+           <!--- <img src="./image/Vector 1.svg" class="fond-curvy"> -->
+        </div>
+        <!--SECTION PROJECTS-->
+        <div class="projects" id="projects">
+            <h2 class="titre-project">Projets personnels</h2>
+        </div>
+    </main>
+    <footer>
+        <!--FOOTER/SECTION RESEAUX-->
+        <div class="container-reseaux" id="reseaux">
+            <div class="container">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./image/linkedin.png" class="fa fa-linkedin-square" aria-hidden="true">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                                <a href="https://www.linkedin.com/in/tom-tournier-aa5a0520b/" target="_blank">Tom Tournier</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./image/twitter-sign.png" alt="logo-twitter" class="fa fa-twitter-square" aria-hidden="true">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                                <a href="https://twitter.com/DevWardzekk" target="_blank">@DevWardzekk</a>
+                            </h3>
+                            <p>C'est là que je lis les nouvelles et que je me connecte à différents groupes sociaux.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <div class="icon">
+                                <img src="./image/github.png" alt="logo-github" class="fa fa-github-square" aria-hidden="true">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <h3>
+                                <a href="https://github.com/Wardzek" target="_blank">Wardzek</a>
+                            </h3>
+                            <p>C'est ici que je partage du code et que je travaille sur des projets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script type="module" defer src="./script.js"></script>
+</body>
+</html>
